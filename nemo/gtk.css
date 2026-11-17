@@ -1,0 +1,12 @@
+/* Nemo Glass */
+window.nemo-window .nemo-places-sidebar {
+    background-color: rgba(25, 22, 35, 0.65);
+}
+
+window.nemo-window .nemo-places-sidebar treeview {
+    background-color: transparent;
+}
+
+window.nemo-window button {
+    border-radius: 10px;
+}

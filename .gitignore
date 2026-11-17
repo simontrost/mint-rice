@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!*.example.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.ics
+
+# Cinnamon Island private calendar config
+weather.json
+
+# Local data
+*.log
+*.bak
+__pycache__/
+.cache/
+.git-backup/
+
+# Private machine-specific configuration
+monitors.conf
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Runtime or backup data
+*.tmp
+*.lock
+*.sqlite3
+*.db
+backups/
+local-snapshots/
+
+# Disabled legacy autostart entries
+autostart/desktop/*.disabled
+
+# Wallpapers intentionally excluded from the public rice
+assets/wallpapers/retrowave_*

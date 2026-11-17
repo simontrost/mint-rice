@@ -1,0 +1,36 @@
+conky.config = {
+    alignment = 'top_middle',
+    background = true,
+    use_xft = true,
+    xftalpha = 0.8,
+    font = 'Orbitron:size=30', 
+    update_interval = 1,
+    double_buffer = true,
+    no_buffers = true,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = false,
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+    own_window_argb_visual = true,
+    own_window_argb_value = 0,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    minimum_width = 400,
+    minimum_height = 200,
+    gap_x = -1900,
+    gap_y = 180,
+    uppercase = true,
+    override_utf8_locale = true,
+    default_color = 'ffffff',
+};
+
+conky.text = [[
+${font Anurati:size=40}${alignc}${time %A}
+${font Quicksand:bold:size=16}${alignc}${time %d %B, %Y.}
+
+${font Quicksand:bold:size=16}${alignc}${time - %H:%M -}
+
+]];
+

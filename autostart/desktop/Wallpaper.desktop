@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/simon/dev/scripts/autostart_rice.sh
+X-GNOME-Autostart-enabled=false
+NoDisplay=false
+Hidden=false
+Name[en_US]=Background_widgets_extensions
+Comment[en_US]=No description
+X-GNOME-Autostart-Delay=1

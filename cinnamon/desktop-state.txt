@@ -1,0 +1,7 @@
+Cinnamon: Cinnamon 6.6.9
+Icon theme: 'Colloid-Purple-Catppuccin-Dark'
+GTK theme: 'Mint-Y-Dark-Purple'
+Cinnamon theme: 'Mintbook-Glass'
+Extensions: ['BlurCinnamon@klangman', 'cinnamon-island@rovillela', 'transparent-panels@germanfr', 'RoundedCorners@klangman']
+Panels: ['1:0:left']
+Applets: ['panel1:right:0:menu@cinnamon.org:41']
